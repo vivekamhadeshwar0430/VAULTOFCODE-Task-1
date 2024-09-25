@@ -1,0 +1,120 @@
+* Html
+
+<html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Viveka-Protfolio</title>
+ <link rel="stylesheet" href="Assignment-1.css">
+</head>
+<body>
+ <header>
+ <h1>VIVEKA MHADESHWAR</h1>
+ </header>
+ <section>
+ <h2>About Me</h2>
+ <p>Hello! My name is Viveka Mhadeshwar . A motivated and enthusiastic
+ BSc IT student with a strong foundation in computer science principles and hands-on experience in programming, web
+development, and
+ database management. Seeking an internship or entry-level position to apply my technical skills and contribute to
+innovative IT projects. Welcome to my portfolio!</p> </section>
+ <section>
+ <h2>Skills and Interests</h2>
+ <h3>Skills</h3>
+ <ul>
+ <li>Proficiency in Front-End and Back-End technologies</li>
+<li>Responsive Design and UI/UX</li>
+ <li>Version Control And collaboration</li>
+ </ul>
+ <h3>Interests</h3>
+ <ul>
+ <li>User Experience(UX) and Design</li>
+ <li>Learning New Technologies</li>
+ <li>Optimization and Performance</li>
+ </ul>
+ </section>
+ <section>
+ <h2>Projects</h2>
+ <article>
+ <h3>Project 1</h3>
+ <p>Amazon clone <a href="http://example.com">View Project</a></p>
+ </article>
+ <article>
+ <h3>Project 2</h3>
+ <p> Login page <a href="http://example.com">View Project</a></p>
+ </article>
+ <article>
+ <h3>Project 3</h3>
+ <p>Form <a href="http://example.com">View Project</a></p>
+ </article>
+ </section>
+ <section>
+<h2>Contact Information</h2>
+ <p>Email: <a href="omkarlangade26@gmail.com"> omkarlangade26gmail.com</a></p>
+ <p>LinkedIn: <a href="https://www.linkedin.com/in/omkar-langade -6b03bb28b/">Omkar Langade </a> </p>
+ <p>GitHub: <a href="https://github.com/Omkar-7788/Omkar">omkar langade</a></p> </section>
+</body>
+</html>
+</body>
+</html>
+
+* CSS
+
+body {
+ font-family: 'Helvetica Neue', Arial, sans-serif;
+ line-height: 1.6;
+ margin: 0;
+ padding: 0;
+ background-image: url("bgas-1.jpg");
+ background-size:cover ;
+ color: #333;
+} header, section {
+ padding: 20px;
+ margin: 20px auto;
+ max-width: 800px;
+ background: #0fa4af;
+ border-radius: 8px;
+ box-shadow: 0 4px 4px rgba(255, 255, 255, 0.525);
+}
+header {
+background-color: #0a3c7a;
+ color: #AFDDE5;
+ text-align: center;
+ padding: 40px 20px;
+} h1
+{
+ margin: 0;
+ font-size: 2.5em;
+} h2
+{
+ color: #003135;
+ border-bottom: 2px solid #003135;
+ padding-bottom: 5px;
+ margin-bottom: 20px;
+} h3
+{
+ color: #AFDDE5;
+ margin-top: 0;
+} ul
+{
+ list-style-type: square;
+ padding-left: 20px;
+}
+p {
+ margin: 10px 0; } a
+{
+ color: #AFDDE5;
+text-decoration: none; }
+a:hover {
+ text-decoration: underline;
+}
+@media (max-width: 600px) {
+ header, section {
+ margin: 10px;
+ padding: 10px;
+ }
+ h1 {
+ font-size: 2em;
+ }
+}
